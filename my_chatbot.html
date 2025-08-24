@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CircleCloset Demo</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            flex-direction: column; 
+            margin: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        h1 {
+            margin-bottom: 8px;
+        }
+        p {
+            margin-top: 0;
+            color: #666;
+        }
+        iframe {
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Digital Wardrobe Assistant</h1>
+    <p>Ask me for outfit suggestions!</p>
+
+    
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="CircleCloset-WearTheVision"
+  agent-id="20a1226f-49a2-4aab-ad15-0edb28e104a2"
+  language-code="en"
+></df-messenger>    
+
+</body>
+</html>
